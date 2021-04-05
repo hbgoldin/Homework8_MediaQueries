@@ -1,0 +1,44 @@
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: #a9a9a9;
+  justify-content: right;
+  text-align: right;
+
+
+  a {
+    display: none;
+  }
+
+  span {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px 25px;
+  }
+
+  @media screen and (min-width: 900px ) {
+    align-items: center;
+    display: flex;
+    transition: 0.2s;
+    span {
+      display: none;
+    }
+    div {
+      position: absolute;
+      right: 0;
+      padding-right: 20px;
+      a {
+        display: inline;
+        padding: 0 10px;
+        margin-left: 10px;
+        color: black;
+        text-decoration: none;
+        justify-content: right;
+        text-align: right;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

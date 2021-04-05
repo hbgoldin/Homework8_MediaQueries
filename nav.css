@@ -1,0 +1,13 @@
+.nav {
+  width: 100%;
+  background-color: #a9a9a9;
+}
+.nav span a {
+  display: none;
+}
+.nav span {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 10px 25px;
+}
+/*# sourceMappingURL=nav.css.map */
